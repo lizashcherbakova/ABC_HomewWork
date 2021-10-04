@@ -1,0 +1,2 @@
+Container cotains  1  elements.
+0  : This is a truck: Load capacity =  10000. Fuel tank capacity =  500 ; Liters per 100 km needed  140.000000. Max distance can be covered =  7000000.000000 
