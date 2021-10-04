@@ -52,7 +52,6 @@ bool Out(transportation *transport, FILE *file)
 // Creating random parameters for generel transportation.
 void InRnd(transportation *t)
 {   
-    rand();rand();
     int k = rand() % 3;
     switch(k) {
         case 0:
