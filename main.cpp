@@ -71,8 +71,9 @@ int main(int argc, char** argv)
     printf("%s", "Start\n");
     container c;
     Init(&c);
+    FILE * file;
     if(!strcmp(argv[1], "-f")) {
-        FILE* file = fopen(argv[2],"r");
+        file = fopen(argv[2],"r");
         if(file){
              In(&c, file);
              fclose(file);
@@ -93,7 +94,6 @@ int main(int argc, char** argv)
         errMessage2();
         return 4;
     }
-    FILE * file;
     if(c.len)
      if(file = fopen(argv[3],"w")){
          quick_sort(c.p_arr, c.len);
